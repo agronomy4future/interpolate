@@ -1,0 +1,10 @@
+Package: interpolate
+Title: Interpolate Missing Values by Group
+Version: 0.0.0.9000
+Authors@R: 
+    person("JK", "Kim", , "agronomy4future@gmail.com", role = c("aut", "cre"))
+Description: The interpolation technique to predict in-between data points
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
