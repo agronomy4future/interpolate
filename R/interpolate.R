@@ -14,6 +14,13 @@
 #' @export
 #'
 #' @examples
+#'if(!require(remotes)) install.packages("remotes")
+#'if (!requireNamespace("normtools", quietly = TRUE)) {
+#'  remotes::install_github("agronomy4future/interpolate", force= TRUE)
+#'}
+#'library(remotes)
+#'library(interpolate)
+
 #' data= data.frame(
 #'   group= rep(c("A","B"), each= 5),
 #'   time= c(1, 2, 3, 5, 6, 1, 3, 4, 5, 6),
