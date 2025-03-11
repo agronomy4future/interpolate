@@ -25,7 +25,7 @@ It ensures that missing values within each group are estimated based on existing
 }
 \examples{
 if(!require(remotes)) install.packages("remotes")
-if (!requireNamespace("normtools", quietly = TRUE)) {
+if (!requireNamespace("interpolate", quietly = TRUE)) {
   remotes::install_github("agronomy4future/interpolate", force= TRUE)
 }
 library(remotes)
